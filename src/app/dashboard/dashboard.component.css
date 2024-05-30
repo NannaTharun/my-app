@@ -1,0 +1,45 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+
+}
+.left{
+    width: 30%;
+    height: 100%;
+    background-color: antiquewhite;
+
+}
+.right{
+    width: 70%;
+    height: 100%;
+    background-color:black;
+    color: white;
+
+    
+
+}
+button{
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+form{
+    text-align: center;
+
+}
+h2:hover{
+    background-color: azure;
+    border-radius: 10px;
+
+}
+h1:hover{
+    background-color: azure;
+    border-radius: 10px;
+
+
+}

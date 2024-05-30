@@ -1,0 +1,17 @@
+<p>data-binding works!</p>
+<!--interpolation-->
+<h3>my age is {{age}}</h3>
+<h3>my name is {{name}}</h3>
+<h3>is indian:{{isIndian}}</h3>
+
+<!--property binding-->
+<button [disabled]="isvalid">submit</button>
+
+<!--event binding -->
+<button (click)="upload()">upload</button>
+<button (dblclick)="send()">send</button>
+<input type="text" (keyup)="change()">
+<br>
+<!-- two way data binding -->
+<input type="text" >
+<P></P>
