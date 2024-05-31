@@ -5,29 +5,29 @@
     display: flex;
     position: relative;
     
-
 }
+
 .left{
     height: 360px;
     width: 250px;
-    margin-left: 10px;
+    margin-left: 20px;
     align-items: center;
     padding: 50px;
     background-color:white;
     color: black;
     position: absolute;
-    top: 200px;
+    top: 100px;
 
 }
 .right{
     height: 360px;
-    width: 25git0px;
+    width: 250px;
     position: absolute;
-    top: 200px;
-    left: 300px;
+    top: 100px;
+    left: 350px;
 
 }
 img{
-    height: 400px;
+    height: 460px;
     width: 400px;
 }
