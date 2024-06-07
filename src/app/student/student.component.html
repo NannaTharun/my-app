@@ -1,0 +1,40 @@
+<p>student works!</p>
+<div class="parent">
+    <div class="child">
+
+    <h1>student form</h1>
+    <label for="">name</label>
+    <input type="text"[(ngModel)]="name">
+    <br><br>
+    <label for="">marks</label>
+    <input type="number"[(ngModel)]="marks">
+    <br><br>
+    <label for="">fee</label>
+    <input type="number"[(ngModel)]="fee">
+    <br>
+    <button (click)="register()">Register</button>
+    <br>
+    <h3>All students</h3>
+    
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>marks</th>
+                    <th>fee</th>
+                    <th>activity</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let student of students">
+                    <td>{{student.name}}</td>
+                    <td>{{student.marks}}</td>
+                    <td>{{student.fee}}</td>
+                    <td><button>delete</button></td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
